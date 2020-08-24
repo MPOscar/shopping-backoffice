@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../node_modules/kolkov/angular-editor",
+  "lib": {
+    "entryFile": "src/public_api.ts"
+  }
+}
