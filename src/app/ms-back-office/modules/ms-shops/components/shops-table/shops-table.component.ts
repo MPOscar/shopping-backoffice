@@ -2,9 +2,8 @@ import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular
 import { FormControl, FormGroup } from '@angular/forms';
 //
 import { MatPaginator, MatSort } from '@angular/material';
-import { Observable } from 'rxjs/Observable';
+import { Observable ,  Subscription } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
-import { Subscription } from 'rxjs';
 //
 import { ConfigService } from '../../../../../config/services/config.service';
 import { ErrorHandlingService } from '../../../../../error-handling/services/error-handling.service';

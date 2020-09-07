@@ -2,10 +2,9 @@ import { Component, AfterViewInit, OnInit, OnDestroy } from '@angular/core';
 import { ValidationErrors } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 //
-import { Observable, Subscription, pipe, of } from 'rxjs';
+import { Observable, Subscription, pipe, of ,  forkJoin } from 'rxjs';
 import { MatDialog, MatDialogRef, MatSnackBar } from '@angular/material';
 import { TranslateService } from '@ngx-translate/core';
-import { forkJoin } from 'rxjs';
 //
 import { Blog } from '../../models/blog';
 import { BlogsImgesService } from '../../services/blogs-images.service';

@@ -1,8 +1,7 @@
 import { AfterViewInit, Component, Input, Inject, OnInit, } from '@angular/core';
 //
-import { debounceTime } from 'rxjs/operators';
+import { debounceTime ,  timeout } from 'rxjs/operators';
 import { Subscription } from 'rxjs';
-import { timeout } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 //import { setTranslations } from '@cognitec/ngx-translate';
 //import { TRANSLATIONS } from './i18n/annotation-tool-modal.component.translations';

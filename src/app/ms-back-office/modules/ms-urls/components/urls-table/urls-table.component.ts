@@ -3,9 +3,8 @@ import { FormControl, FormGroup } from '@angular/forms';
 //
 import { MatDialog, MatDialogRef } from '@angular/material';
 import { MatPaginator, MatSort } from '@angular/material';
-import { Observable } from 'rxjs/Observable';
+import { Observable ,  Subscription } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
-import { Subscription } from 'rxjs';
 //
 import { ErrorHandlingService } from '../../../../../error-handling/services/error-handling.service';
 import { HandledError } from '../../../../../error-handling/models/handled-error';

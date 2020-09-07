@@ -4,8 +4,7 @@ import { FormControl, FormGroup, FormBuilder, FormArray, Validators } from '@ang
 import { MatDialog, MatDialogRef, MatCheckbox } from '@angular/material';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable, of, Subscription } from 'rxjs';
-import { map, startWith } from 'rxjs/operators';
-import { delay } from 'rxjs/operators';
+import { map, startWith ,  delay } from 'rxjs/operators';
 //
 import { Face, State } from '../../../../../ui/modules/images-card/models/face';
 import { BaseReactiveFormComponent } from '../../../../../ui/components/base-reactive-form/base-reactive-form-component';

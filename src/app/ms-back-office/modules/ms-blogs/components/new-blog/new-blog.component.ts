@@ -3,9 +3,8 @@ import { ValidationErrors } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 //
 import { MatDialog, MatDialogRef } from '@angular/material';
-import { Observable, Subscription, pipe, of, UnaryFunction } from 'rxjs';
+import { Observable, Subscription, pipe, of, UnaryFunction ,  forkJoin } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
-import { forkJoin } from 'rxjs';
 //
 import { BaseRouteComponent } from '../../../../../routing/components/base-route-component';
 import { Blog } from '../../models/blog';

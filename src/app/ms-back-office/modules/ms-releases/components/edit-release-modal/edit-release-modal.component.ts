@@ -4,8 +4,7 @@ import {Router, ActivatedRoute} from '@angular/router';
 //
 import {TranslateService} from '@ngx-translate/core';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
-import {Observable} from 'rxjs/Observable';
-import {forkJoin} from 'rxjs';
+import {Observable, forkJoin} from 'rxjs';
 //
 import {ReleaseImagesService} from '../../services/releases-images.service';
 import {ReleaseService} from '../../services/releases.service';

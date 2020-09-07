@@ -3,10 +3,10 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
     <div class="nav-brand cursor-pointer" [routerLink]="['/backoffice/home']">
-        MoreSneakers
+        Shopping
     </div>
     <span class="nav-spacer"></span>
-    <!--button class="hidden-sm" mat-icon-button [matMenuTriggerFor]="language">
+    <button class="hidden-sm" mat-icon-button [matMenuTriggerFor]="language">
         <mat-icon>language</mat-icon>
     </button>
     <mat-menu #language="matMenu">
@@ -16,7 +16,7 @@
         <button mat-menu-item (click)="changeLang('fr')">
             <span>{{ 'French' | translate }}</span>
         </button>
-    </mat-menu-->
+    </mat-menu>
     <span class="flex-grow-1"></span>
     <div class="marging-right-10px width-80px">
         <button class="hidden-sm" mat-icon-button [matMenuTriggerFor]="profile">

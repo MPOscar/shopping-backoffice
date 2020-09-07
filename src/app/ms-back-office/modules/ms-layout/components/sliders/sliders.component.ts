@@ -2,8 +2,7 @@ import { Component, AfterViewInit, Inject, Input, Output, EventEmitter, OnInit, 
 import { ValidationErrors } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 //
-import { forkJoin } from 'rxjs';
-import { Observable } from 'rxjs/Observable';
+import { forkJoin ,  Observable } from 'rxjs';
 import { MatDialog, MAT_DIALOG_DATA, MatDialogRef, MatSnackBar } from '@angular/material';
 import { TranslateService } from '@ngx-translate/core';
 //

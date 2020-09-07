@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable ,  of } from 'rxjs';
 import {
     HttpEvent,
     HttpHandler,
@@ -10,8 +10,6 @@ import {
 import { tap, catchError } from 'rxjs/operators';
 import { HttpRequestIndicatorsService } from './http-request-indicators.service';
 import { HttpRequestIndicator } from '../models/http-request-indicator';
-//import { LoadingService } from '@app/services/loading.service';
-import { of } from 'rxjs';
 
 @Injectable()
 export class LoadingInterceptor implements HttpInterceptor {
